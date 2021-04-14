@@ -1,0 +1,15 @@
+server:
+  port: 18888
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mingmarket:mingmarket@127.0.0.1:27017/ky-supermarket
+  redis:
+    password: mingredis
+    timeout: 5000
+    host: 112.125.24.60
+    port: 6379
+    pool:
+      max-active: 1000
+      max-idle: 18
+
