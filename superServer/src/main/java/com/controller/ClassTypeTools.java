@@ -26,7 +26,7 @@ public class ClassTypeTools {
 
     @Autowired
     private ClassTypeService classTypeService;
-    @Resource
+    @Autowired
     private RedisUtils redisUtils;
 
     /**
